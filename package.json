@@ -80,9 +80,14 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,json}": "prettier --write"
   },
-  "packageManager": "yarn@4.3.1",
+  "packageManager": "yarn@3.6.4",
   "browserslist": [
     "electron 24.0",
     "defaults"
-  ]
+  ],
+  "overrides": {
+    "@actual-app/api": {
+      "better-sqlite3": "^11"
+    }
+  }
 }

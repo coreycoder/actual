@@ -26,7 +26,7 @@
     "@actual-app/crdt": "2.1.0",
     "@actual-app/web": "25.2.1",
     "bcrypt": "^5.1.1",
-    "better-sqlite3": "^11.7.0",
+    "better-sqlite3": "^11.8.1",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "date-fns": "^2.30.0",

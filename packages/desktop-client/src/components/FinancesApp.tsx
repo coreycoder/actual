@@ -45,6 +45,7 @@ import { useMultiuserEnabled } from './ServerContext';
 import { Settings } from './settings';
 import { FloatableSidebar } from './sidebar';
 import { Titlebar } from './Titlebar';
+import { ReceiptsPage } from './receipts/ReceiptsPage';
 
 function NarrowNotSupported({
   redirectTo = '/budget',
@@ -247,6 +248,8 @@ export function FinancesApp() {
                     </NarrowNotSupported>
                   }
                 />
+
+                <Route path="/receipts" element={<ReceiptsPage />} />
 
                 <Route path="/payees" element={<ManagePayeesPage />} />
                 <Route path="/rules" element={<ManageRulesPage />} />
